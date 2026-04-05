@@ -13,18 +13,18 @@
 			// Run `wrangler d1 create my-emdash-site` and paste the ID here
 		},
 	],
-	"r2_buckets": [
-		{
-			"binding": "MEDIA",
-			"bucket_name": "my-emdash-media",
-		},
-	],
+	// "r2_buckets": [
+	// 	{
+	// 		"binding": "MEDIA",
+	// 		"bucket_name": "my-emdash-media",
+	// 	},
+	// ],
 	"observability": {
 		"enabled": true,
 	},
-	"worker_loaders": [
-		{
-			"binding": "LOADER",
-		},
-	],
+	// "worker_loaders": [
+	// 	{
+	// 		"binding": "LOADER",
+	// 	},
+	// ],
 }
